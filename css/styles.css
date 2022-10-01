@@ -380,10 +380,9 @@ text-transform: uppercase;
     color: rgba(117, 117, 117, 0,5);
   }
   
-  .form-field-chek {
-    padding-left: 14px;
-    margin-top: 25px;
+  .form-field-check {
     margin-bottom: 30px;
+    margin-top: 20px;
   }
 
   .icon-checked {
@@ -441,13 +440,7 @@ text-transform: uppercase;
   }
   
   .send {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-    margin: 0 auto;
     padding: 10px 56px;
-    
     border: none;
     border-radius: 4px;
     text-align: center;
@@ -457,7 +450,6 @@ text-transform: uppercase;
     line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer;
-    margin-top: 30px;
     background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: #FFFFFF;
@@ -789,11 +781,10 @@ text-transform: uppercase;
   }
 
   .subscription {
-    margin-left: 93px
-    
+    margin-left: auto;
   }
 
-  .subscription .form {
+  .form-subscription {
     display: flex;
   }
 
@@ -812,7 +803,7 @@ text-transform: uppercase;
   .subscription .form-input:focus {
     background-color: #FFFFFF;
   }
-
+   
   .subscription .text {
     height: 16px;
     font-weight: 700;
